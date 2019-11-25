@@ -34,7 +34,7 @@ def display_country(flag):
     return False
 
 def display_country_info(country):
-    print(country['name'] + ': ' + country['code'] + '\n')
+    print(country['name'] + ': ' + country['code'])
 
 
 def main():
