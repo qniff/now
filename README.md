@@ -5,8 +5,7 @@ A terminal utility to check time in countries around the world written in Python
 * Install Python 3.7+
 * ```git clone https://github.com/qniff/now```
 * ```cd now```
-* If you don't want to install dependencies globally ```source venv/bin/activate```
-* Otherwise ```pip install --user --requirement requirements.txt```
+* ```pip install --user --requirement requirements.txt```
 * Set custom alias for convenience (e.g ```alias now='python ~/Scripts/now/now.py'```)
 
 ## Usage
