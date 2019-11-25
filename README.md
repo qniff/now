@@ -14,3 +14,7 @@ A terminal utility to check time in countries around the world written in Python
 * ```python now.py japan``` - Time in the country by country name
 * ```python now.py -l``` - List all available countries
 * ```python now.py -h``` - Help page
+
+## Run in GitPod
+You can also run now in Gitpod, a free online dev environment for GitHub:
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/qniff/now)

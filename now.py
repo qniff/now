@@ -7,8 +7,7 @@ from  timezones import countries
 
 def display_time(time, zone = get_localzone()):
     year, month, month_str, day, hour, min, sec = map(str, time.strftime("%Y %m %B %d %H %M %S").split())
-    to_print = time.strftime("%H:%M:%S %d.%B (%d-%m-%Y)")
-    print(zone, "\n", to_print, "\n")
+    print(zone + "\n" + time.strftime("%H:%M:%S %d.%B (%d-%m-%Y)" + "\n") )
 
 def display_help():
     print("\n*countrycode* / *countryname* \n\tTo get current time in the country")
@@ -17,8 +16,7 @@ def display_help():
 
 def list_countries():
     for country in countries:
-        to_print = ("%s: %s" % (country['name'], country['code']))
-        print(to_print)
+        print("%s: %s" % (country['name'], country['code']))
 
 def search_country(target):
     for country in countries:

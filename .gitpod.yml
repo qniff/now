@@ -1,0 +1,4 @@
+image: gitpod/workspace-full-vnc
+tasks:
+  - init: pip install --user --requirement requirements.txt
+    command: alias now='python ./now.py'
