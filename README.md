@@ -2,7 +2,7 @@
 A terminal utility to check time in different countries.
 
 ## Installation
-* 'git clone https://github.com/qniff/now'
+* ```git clone https://github.com/qniff/now```
 * 'cd now'
 * If you don't want to install dependencies globally 'source venv/bin/activate'
 * Otherwise 'pip install --user --requirement requirements.txt'
