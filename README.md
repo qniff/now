@@ -1,5 +1,5 @@
 # Now
-A terminal utility to check time in different countries written in Python.
+A terminal utility to check time in countries around the world written in Python.
 
 ## Installation
 * Install Python 3.7+
