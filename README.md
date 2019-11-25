@@ -2,10 +2,10 @@
 A terminal utility to check time in different countries.
 
 ## Installation
-* Install Python 3.7+ (e.g ```sudo pacman -S python```)
+* Install Python 3.7+
 * ```git clone https://github.com/qniff/now```
 * ```cd now```
-* If you don't want to install dependencies globally ```source venv/bin/activate``` (p.s requires ```python-virtualenv```)
+* If you don't want to install dependencies globally ```source venv/bin/activate```
 * Otherwise ```pip install --user --requirement requirements.txt```
 * Set custom alias for convenience (e.g ```alias now='python ~/Scripts/now/now.py'```)
 
