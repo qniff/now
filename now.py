@@ -24,6 +24,7 @@ def search_country(target):
             display_country(country['code'])
 
 def display_country(flag):
+    if flag == 'UK': flag = 'GB'
     for country in countries:
         if flag == country['code']:
             display_country_info(country)
