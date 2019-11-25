@@ -10,8 +10,8 @@ def display_time(time, zone = get_localzone()):
 
 def display_help():
     print("\n*countrycode* / *countryname* \n\tTo get current time in the country")
-    print("-h / -help \n\tTo see help")
-    print("-l / -list \n\tTo list available countries")
+    print("\n-h / -help \n\tTo see help")
+    print("\n-l / -list \n\tTo list available countries")
 
 def list_countries():
     for country in countries:
