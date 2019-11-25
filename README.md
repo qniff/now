@@ -12,7 +12,7 @@ A terminal utility to check time in countries around the world written in Python
 * ```now``` - Current time and time zone information
 * ```now ca``` - Time in the country by country index
 * ```now japan``` - Time in the country by country name
-* ```now ja``` - Time in the all countries that contain this
+* ```now ja``` - Time in the all countries that contain specified text
 * ```now -l``` - List all available countries
 * ```now -h``` - Help page
 
