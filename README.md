@@ -9,7 +9,7 @@ A terminal utility to check time in countries around the world written in Python
 * Set custom alias for convenience (e.g ```alias now='python ~/Scripts/now/now.py'```)
 
 ## Usage
-* ```now`` - Current time and time zone information
+* ```now``` - Current time and time zone information
 * ```now ca``` - Time in the country by country index
 * ```now japan``` - Time in the country by country name
 * ```now ja``` - Time in the all countries that contain this
