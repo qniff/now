@@ -16,7 +16,12 @@ A terminal utility to check time in countries around the world written in Python
 * ```now -l``` - List all available countries
 * ```now -h``` - Help page
 
+## Future development
+* Better support of US States
+* Better support of Canadian provinces
+* ...
+
 ## Run in GitPod
-You can also run now in Gitpod, a free online dev environment for GitHub:
+You can also run now in GitPod, a free online dev environment for GitHub:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/qniff/now)
