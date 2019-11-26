@@ -41,6 +41,11 @@ def filter_flag(flag):
     if flag == 'USA' or flag == 'AMERICA': flag = 'US'
     return flag
 
+def check_america(flag):
+    if flag in 'AMERICA':
+        display_country('US')
+
+
 
 def main():
     # Identify user input
@@ -62,6 +67,8 @@ def main():
     # Main functionality
     if display_country(flag) is False:
         search_country(flag)
+        check_america(flag)
+
 
 
 
